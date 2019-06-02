@@ -22,6 +22,12 @@ pipeline {
 				sh 'sh app.sh'
 			}
 		}
+                stage('testingbutanewstage') {
+                        steps{
+                                sh 'sh app.sh'
+                        }
+                }
+
 	}
 }
 
